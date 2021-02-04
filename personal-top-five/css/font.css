@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'BadUnicornDEMO-Regular';
+    src:url('../font/BadUnicornDEMO-Regular.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'BadUnicornDEMO-Regular';
+    src:url('../font/BadUnicornDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'MRFLemonberrySans-Medium';
+    src:url('../font/MRFLemonberrySans-Medium.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'MRFLemonberrySans-Medium';
+    src:url('../font/MRFLemonberrySans-Medium.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'AlloyInk-lgdWw';
+    src:url('../font/AlloyInk-lgdWw.woff2') format('woff2');
+    font-weight: normal;
+}

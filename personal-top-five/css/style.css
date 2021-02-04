@@ -1,0 +1,81 @@
+body{
+  background-image: url(../pictures/background.jpg);
+}
+
+h1{
+  font-family: 'AlloyInk-lgdWw';
+  font-size: 70px;
+  text-align: center;
+  color: rgb(255, 130, 157);;
+}
+
+audio{
+  width: 200px;
+  height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.content-list{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+h2{
+  font-family: 'MRFLemonberrySans-Medium';
+  font-size: 35px;
+  color: rgb(177, 0, 74);
+  margin-top: 150px;
+  transition: transform .2s;
+}
+
+h2:hover {
+  transform: scale(1.2);
+}
+
+
+h3{
+  font-family: 'BadUnicornDEMO-Regular';
+  font-size: 30px;
+  text-align: center;
+  color: rgb(88, 0, 32);
+  transition: transform .2s;
+}
+
+h3:hover {
+  transform: rotate(15deg);
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(165, 42, 69);
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+
+a{
+  font-size: 20px;
+  color: rgb(251, 0, 113);
+}
+
+.instagram-media{
+  margin:0 auto!important;
+}
+
+iframe{
+  width: 560px;
+  height: 315px;
+}
+
+img{
+  height: 400px;
+  width: 300px;
+}
