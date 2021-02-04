@@ -6,7 +6,13 @@ h1{
   font-family: 'AlloyInk-lgdWw';
   font-size: 70px;
   text-align: center;
-  color: rgb(255, 130, 157);;
+  color: rgb(255, 130, 157);
+  transition: 0.3s;
+}
+
+h1:hover{
+  color: rgb(255, 43, 89);
+  transform: scale(1.1);
 }
 
 audio{
