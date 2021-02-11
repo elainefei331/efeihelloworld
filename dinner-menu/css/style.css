@@ -1,0 +1,81 @@
+body{
+    background-image: url(../image/background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-break: normal;
+}
+
+.menu{
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(247, 235, 223);
+    opacity: 80%;
+    border: white;
+    border-style: dotted;
+}
+
+.menu-header{
+    padding-top: 5%;
+    margin-bottom: 7%;
+}
+
+.menu-header h1{
+    font-size: 50px;
+    font-family: 'GreatVibes-Regular';
+    color: rgb(111, 59, 44);
+    letter-spacing: 2px;
+}
+
+.menu-header h2{
+    font-size: 30px;
+    font-family: 'InriaSerif-Regular';
+    color: rgb(137, 78, 60);
+}
+
+.menu-header h3{
+    font-size: 15px;
+    font-family: 'InriaSerif-Regular';
+    font-style: italic;
+    color: rgb(174, 106, 85);
+}
+
+.courses{
+    padding-bottom: 100px;
+}
+
+article{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.courses h2{
+    font-family: 'GreatVibes-Regular';
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: rgb(117, 36, 12);
+}
+
+.courses h3{
+    font-size: 15px;
+    font-family: 'InriaSerif-Regular';
+    color: rgb(148, 68, 43);
+}
+
+p{
+    font-family: 'MarkaziText-Regular';
+    font-size: 15px;
+    color: rgb(101, 37, 37);
+    margin-bottom: 50px;
+}
+
+footer{
+    color: rgb(193, 141, 93);
+    font-size: 15px;
+}
+
