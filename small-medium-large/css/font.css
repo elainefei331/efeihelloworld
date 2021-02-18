@@ -1,5 +1,18 @@
 @font-face{
-    font-family: 'GreatVibes-Regular';
-    src:url('../font/GreatVibes-Regular.woff2') format('woff2');
+    font-family: 'Poppins-Regular';
+    src:url('../font/Poppins-Regular.woff2') format('woff2');
     font-weight: normal;
 }
+
+@font-face{
+    font-family: 'PatrickHand-Regular';
+    src:url('../font/PatrickHand-Regular.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'PumpkinStory-Regular';
+    src:url('../font/PumpkinStory.woff2') format('woff2');
+    font-weight: normal;
+}
+
