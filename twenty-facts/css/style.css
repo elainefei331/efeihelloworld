@@ -243,11 +243,26 @@ p{
     background-color: rgb(248, 238, 238);
     display: flex;
     flex-direction: row;
+    border-radius: 1em;
+}
+
+.fact12{
+    background-color: rgb(248, 238, 238);
+    margin: 0% 1.5% 0% 1.5%;
+    border-radius: 1em;
+}
+
+.fact13{
+    background-color: rgb(248, 238, 238);
+    display: flex;
+    flex-direction: row;
+    border-radius: 1em;
 }
 
 .fact14-20{
     display: flex;
     flex-direction:row;
+    margin-top: 1.5%;
 }
 
 .fact14-17{
@@ -260,9 +275,41 @@ p{
     flex-direction:row;
 }
 
+.fact14{
+    background-color: rgb(248, 238, 238);
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    border-radius: 1em;
+    width: 50%;
+}
+
+.fact15{
+    background-color: rgb(248, 238, 238);
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    border-radius: 1em;
+    width: 50%;
+}
+
 .fact16-17{
     display: flex;
     flex-direction:row;
+}
+
+.fact16{
+    background-color: rgb(248, 238, 238);
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    border-radius: 1em;
+    width: 50%;
+}
+
+.fact17{
+    background-color: rgb(248, 238, 238);
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    border-radius: 1em;
+    width: 50%;
 }
 
 .fact18-20{
