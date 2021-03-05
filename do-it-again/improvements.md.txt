@@ -3,3 +3,4 @@
 3. Use flexible layout
 4. Adjust flexible layout in responsive website
 5. Add top scrolling bar to indicate progress
+6. On responsible screen, use hover instead of magnifier

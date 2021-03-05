@@ -54,6 +54,7 @@ img{
   font-family: monospace;
   color: rgb(150, 12, 35);
   font-size: 1.5em;
+  margin: 0% 20% 0% 20%;
 }
 
 .row-1{
@@ -91,26 +92,32 @@ img{
 
 .step-1{
   position: relative;
+  margin: 0% 10% 0% 10%;
 }
 
 .step-2{
   position: relative;
+  margin: 0% 10% 0% 10%;
 }
 
 .step-3{
   position: relative;
+  margin: 0% 10% 0% 10%;
 }
 
 .step-4{
   position: relative;
+  margin: 0% 10% 0% 10%;
 }
 
 .step-5{
   position: relative;
+  margin: 0% 10% 0% 10%;
 }
 
 .step-6{
   position: relative;
+  margin: 0% 10% 0% 10%;
 }
 
 .step-7{
@@ -135,8 +142,8 @@ iframe{
   border: 0.2em solid rgb(255, 0, 85);
   border-radius: 50%;
   cursor: zoom-in;
-  width: 20em;
-  height: 20em;
+  width: 15em;
+  height: 15em;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -186,8 +193,12 @@ iframe{
   }
   
   img{
-    width: 60%;
-    height: 100%;
+    width: 80%;
+    height: 120%;
+  }
+
+  img:hover{
+    transform: scale(2);
   }
   
   .information-container{
@@ -227,36 +238,43 @@ iframe{
   }
   
   #step7{
-    width: 60%;
-    height: 100%;
+    width: 80%;
+    height: 120%;
   }
   
   .step-1{
     position: relative;
+    margin: 0% 20% 0% 20%;
   }
   
   .step-2{
     position: relative;
+    margin: 0% 20% 0% 20%;
   }
   
   .step-3{
     position: relative;
+    margin: 0% 20% 0% 20%;
   }
   
   .step-4{
     position: relative;
+    margin: 0% 20% 0% 20%;
   }
   
   .step-5{
     position: relative;
+    margin: 0% 20% 0% 20%;
   }
   
   .step-6{
     position: relative;
+    margin: 0% 20% 0% 20%;
   }
   
   .step-7{
     position: relative;
+    margin: 0% 20% 0% 20%;
   }
   
   .video-content{
