@@ -1,0 +1,5 @@
+1. Make Responsive
+2. Add magnifying function to view details of instruction images
+3. Use flexible layout
+4. Adjust flexible layout in responsive website
+5. Add top scrolling bar to indicate progress
