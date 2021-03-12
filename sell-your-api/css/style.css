@@ -1,0 +1,68 @@
+body{
+    background: rgb(238,174,203);
+    background: radial-gradient(circle, rgba(238,174,203,1) 0%, rgba(148,233,193,1) 92%);
+}
+
+
+.content{
+    margin: 5% 10% 5% 10%;
+    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 6em;
+}
+
+iframe{
+    width: 80em;
+    height: 60em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pantone-description{
+    background-color: rgb(243, 226, 243);
+    color: rgb(57, 142, 142);
+    margin: 5% 20% 5% 20%;
+    text-align: center;
+    border-radius: 2em;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: rgb(158, 211, 207);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3%;
+}
+
+p{
+    font-size: 1em;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color: rgb(255, 143, 161);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(36, 174, 137);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 129, 129);
+    background-color: transparent;
+    text-decoration: underline;
+  }
