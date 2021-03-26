@@ -1,14 +1,87 @@
-body {
-	font-size: 32px;
+body{
+    font-family: 'Times New Roman', Times, serif;
 }
+
+.content{
+    margin: 5% 15% 8% 15%;
+    background-color: rgb(220, 196, 165);
+    text-align: center;
+    border-radius: 5em;
+}
+
+.introduction{
+    margin-bottom: 8%;
+}
+
 h1 {
-	color: red;
+	color: rgb(126, 0, 0);
+    font-size: 5em;
+    position: relative;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p{
     color: black;
+    font-size: 1.5em;
 }
 
-span{
-    color: blanchedalmond;
+#author{
+    color: rgb(135, 21, 21);
+    font-size: 2em;
+}
+
+#datePublished{
+    font-size: 1em;
+    padding-bottom: 3%;
+}
+
+#description{
+    color: rgb(86, 10, 10);
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 4%;
+    font-size: 1.3em;
+    border-style: dashed;
+    border-color: rgb(255, 246, 235);
+}
+
+img#childhood-tanghulu{
+    width: 60%;
+    height:40%;
+}
+
+.instruction{
+    text-align: center;
+    margin: 0% 15% 5% 15%;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+#cookTime{
+    color: brown;
+}
+
+#size{
+    color: brown;
+}
+
+#recipeIngredient{
+    color: brown;
+}
+
+#recipeInstructions{
+    background-color: rgb(229, 208, 194);
+    margin: 5% 10% 5% 10%;
+    line-height: 2em;
+}
+
+img#finish-tanghulu{
+    width: 40%;
+    height:40%;
+    margin-bottom: 10%;
 }

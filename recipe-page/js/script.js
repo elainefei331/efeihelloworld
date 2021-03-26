@@ -5,7 +5,7 @@ const recipe = {
     "author": "Erica from easychineserecipes.com",
     "datePublished": "2020-02-12",
     "description": [
-      "Tanghulu （糖葫芦）is one of my favorite childhood snack from China. It is made with fruits on a skewer and layering the top with a coat of sugar.",
+      "Tanghulu （糖葫芦）is one of my favorite childhood snack from China. It is made with fruits on a skewer and layering the top with a coat of sugar",
       "In Chinese, Tang (糖）means sugar，Hulu（葫芦）means howthorns, and I am going to show you how to create this most traditional type of Tanghulu today."
     ],
 
@@ -22,10 +22,10 @@ const recipe = {
 
     "recipeInstructions": [
       "Steps:",
-      "1. Wash the hawthorn and tie it with bamboo sticks.",
-      "2. Add the clear water and sugar in a pot. Mix them well.",
-      "3. Heat the pot under middle heat until bubbles appear and color of the sugar paste turns yellow. Use a chopstick to dip the syrup into the cold water and if it solidify quickly, the sugar coat is ready.",
-      "4. Dip the hawthorn in the pot and quickly coat it with the sugar syrup. Let it cool.",
+      "1. Wash the hawthorn and tie it with bamboo sticks",
+      "2. Add the clear water and sugar in a pot. Mix them well",
+      "3. Heat the pot under middle heat until bubbles appear and color of the sugar paste turns yellow. Use a chopstick to dip the syrup into the cold water and if it solidify quickly, the sugar coat is ready",
+      "4. Dip the hawthorn in the pot and quickly coat it with the sugar syrup. Let it cool",
       "5. Ready to taste the amazing Tanghulu!"
     ],
 
@@ -35,6 +35,8 @@ const recipe = {
   }
   
   const titleElement = document.getElementById("title");
+
+  document.body.style.backgroundImage = "url('./image/background.jpg')";
   
   titleElement.innerText = recipe.name;
   
