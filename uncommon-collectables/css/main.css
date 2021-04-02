@@ -34,6 +34,10 @@ h1{
     background: rgb(255, 252, 211);
 }
 
+.flower-container:hover {
+    transform: scale(1.5); 
+  }
+
 .flower-family {
     display: none;
     color: purple;
