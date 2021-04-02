@@ -73,11 +73,21 @@ function consoleLogFlowers() {
           flowerImage.classList.toggle("active");
         })
 
-        //var flowerColor = flower.fields.color;
-        //flowerColor.forEach(function(color) {
-        // flowerContainer.classList.add(color)
-        //})
+        var flowerColor = flower.fields.color;
+        flowerColor.forEach(function(color) {
+         flowerContainer.classList.add(color)
+        })
         
+        var filterPink = document.querySelector('.pink');
+        filterPink.addEventListener("click", function(){
+
+          if (flowerContainer.classList.contains("pink")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
+
 
 
         //var filterPink = document.querySelector('.pink');
