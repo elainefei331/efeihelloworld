@@ -36,7 +36,7 @@ h1{
 
 .flower-container:hover {
     transform: scale(1.2); 
-    background: rgb(255, 210, 225);
+    background: rgb(255, 220, 220);
   }
 
 .flower-family {
