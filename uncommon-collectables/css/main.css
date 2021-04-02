@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'IndieFlower',Arial, Helvetica, sans-serif;
+    background-image: url(../assets/background.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+
+}
+
+h1{
+    color: rgb(186, 102, 186);
+}
+
+#title{
+    font-size: 5rem;
+    font-family: 'Shrikhand-Regular';
+    text-align: left;
+    padding: 1rem 0rem 2rem 20rem;
+    color: rgb(243, 95, 144);
+}
+
+.container{
+    margin-bottom: 6rem;
+}
+
+.flower-container {
+    margin-left: 35rem;
+    margin-right: 35rem;
+    display: block;
+    margin-top: 2rem;
+    border: 3px dashed rgb(255, 146, 30);
+    border-radius: 45px;
+    text-align: center;
+    background: rgb(255, 252, 211);
+}
+
+.flower-family {
+    display: none;
+    color: purple;
+}
+
+.flower-image {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    display: none;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.flower-family.active {
+    display: block;
+    text-align: center;
+}
+
+.flower-image.active {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filter {
+    padding: 2rem;
+}
