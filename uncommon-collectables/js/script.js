@@ -74,9 +74,8 @@ function consoleLogFlowers() {
         })
 
         var flowerColor = flower.fields.color;
-        flowerColor.forEach(function(color) {
-         flowerContainer.classList.add(color)
-        })
+        var flowerColor = flower.fields.color;
+        flowerContainer.classList.add(flowerColor);
         
         var filterPink = document.querySelector('.pink');
         filterPink.addEventListener("click", function(){
@@ -88,19 +87,87 @@ function consoleLogFlowers() {
           }
         })
 
+        var filterRed = document.querySelector('.red');
+        filterRed.addEventListener("click", function(){
 
+          if (flowerContainer.classList.contains("red")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
 
-        //var filterPink = document.querySelector('.pink');
-        //filterPink.addEventListener("click", function(){
+        var filterPurple = document.querySelector('.purple');
+        filterPurple.addEventListener("click", function(){
 
-        //  if (flowerContainer.classList.contains("pink")) {
-        //    flowerContainer.style.background = "red";
-        //  } else {
-        //    flowerContainer.style.background = "white";
-        //  }
-        //})
+          if (flowerContainer.classList.contains("purple")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
 
+        var filterWhite = document.querySelector('.white');
+        filterWhite.addEventListener("click", function(){
 
+          if (flowerContainer.classList.contains("white")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
+        
+        var filterYellow = document.querySelector('.yellow');
+        filterYellow.addEventListener("click", function(){
+
+          if (flowerContainer.classList.contains("yellow")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
+        
+        var filterBlue = document.querySelector('.blue');
+        filterBlue.addEventListener("click", function(){
+
+          if (flowerContainer.classList.contains("blue")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
+
+        
+        var filterOrange = document.querySelector('.orange');
+        filterOrange.addEventListener("click", function(){
+
+          if (flowerContainer.classList.contains("orange")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
+        
+        var filterBlack = document.querySelector('.black');
+        filterBlack.addEventListener("click", function(){
+
+          if (flowerContainer.classList.contains("black")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
+
+        var filterMulti_colored = document.querySelector('.multi-colored');
+        filterMulti_colored.addEventListener("click", function(){
+
+          if (flowerContainer.classList.contains("multi-colored")) {
+            flowerContainer.style.display = "block";
+          } else {
+            flowerContainer.style.display = "none";
+          }
+        })
+        
 
 
     });

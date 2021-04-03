@@ -2,7 +2,7 @@
 body {
     font-family: 'IndieFlower',Arial, Helvetica, sans-serif;
     background-image: url(../assets/background.jpg);
-    background-repeat: repeat-x;
+    background-repeat: repeat-x repeat-y;
     background-size: contain;
 
 }
@@ -65,4 +65,43 @@ h1{
 
 .filter {
     padding: 2rem;
+    margin-left: 18rem;
+    font-size: 2rem;
+    color: rgb(29, 165, 29);
+}
+
+.pink {
+    color: rgb(255, 144, 166);
+}
+
+.red {
+    color: rgb(246, 85, 85);
+}
+
+.purple {
+    color: rgb(171, 84, 182);
+}
+
+.white {
+    color: rgb(197, 193, 161);
+}
+
+.yellow {
+    color: rgb(255, 187, 0);
+}
+
+.blue {
+    color: rgb(77, 181, 255);
+}
+
+.orange {
+    color: rgb(255, 171, 74);
+}
+
+.black {
+    color: rgb(104, 104, 104);
+}
+
+.multi-colored {
+    color: rgb(255, 95, 95);
 }
