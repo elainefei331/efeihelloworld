@@ -18,157 +18,73 @@
 
 <body>
 
-    <div class="introduction">
-        <h1 id="title">Bubbles!</h1>
-        <h2 id="project-description">Designed to be interactive with users, Bubbles! focused on providing information about Netflix shows or movies, while interacting with users in a playful way!</h2>
+    <div class="front-page">
+        <div class="introduction">
+            <h1 id="title"><a href="./index.html">Bubbles!</a></h1>        
+            </div>
+
+
+        <div class="video-container">
+            <video loop autoplay muted>
+                <source src="./assets/process-video.mp4" type="video/mp4">
+            </video>
+        </div>
     </div>
-    <div class="container">
-        <div class="content">
-          <div class="carousel-container">
-    
-            <div class="carousel-left-icon carousel-icon">
-              <button onclick="prev()">left</button>
-            </div>
-    
-    
-            <div class="carousel-list">
-              <div id="maze" class="carousel-item">
-                <div>
-                  <a href="javascript:void(0);" onclick="showDetail('maze')">
-                    <img src="./pictures/maze.png" alt="Picture of Maze Project" style="width: 100%;"></img>
-                  </a>
-                </div>
-                <div>
-                  Toy Maze
-                </div>
-              </div>
-              <div id="nametag" class="carousel-item">
-                <div>
-                  <a href="javascript:void(0);" onclick="showDetail('nametag')">
-                    <img src="./pictures/nametag.png" alt="Picture of Nametag Project" style="width: 100%;"></img>
-                  </a>
-                </div>
-                <div>
-                  Nametag
-                </div>
-              </div>
-              <div id="interview" class="carousel-item">
-                <div>
-                  <a href="javascript:void(0);" onclick="showDetail('interview')">
-                    <img src="./pictures/interview.png" alt="Picture of Interview Project" style="width: 100%;"></img>
-                  </a>
-                </div>
-                <div>
-                  Interview
-                </div>
-              </div>
-              <div id="expressivewebsite" class="carousel-item">
-                <div>
-                  <a href="javascript:void(0);" onclick="showDetail('expressivewebsite')">
-                    <img src="./pictures/expressive-text.png" alt="Picture of Expressive Website Project" style="width: 100%;"></img>
-                  </a>
-                </div>
-                <div>
-                  Expressive Website
-                </div>
-              </div>
-              <div id="abstractwebsite" class="carousel-item">
-                <div>
-                  <a href="javascript:void(0);" onclick="showDetail('abstractwebsite')">
-                    <img src="./pictures/abstract-website.png" alt="Picture of Abstract Website Project" style="width: 100%;"></img>
-                  </a>
-                </div>
-                <div>
-                  Abstract Website
-                </div>
-              </div>
-            </div>
-            
-    
-    
-            <div class="carousel-right-icon carousel-icon">
-              <button onclick="next()">right</button>
-            </div>
-          </div>
-    
-    
-          <div class="content-detail">
-            <div id="maze-detail" class="detail-item hide">
-              <div>
-                <a href="../toy-maze/index.html">
-                <img src="./pictures/maze.png"  class="image-detail" alt="Picture of Maze Project"></img>
-              </a>
-              </div>
-              <div class="written-description">
-                This is a toy maze that I have created to let the users interact with the webpage! The game needs the user to control the rectangle and walk out the maze without touching the side walls!
-              </div>
-            </div>
-            <div id="nametag-detail" class="detail-item hide">
-              <div>
-                <a href="../Nametag/Nametag.html">
-                <img src="./pictures/nametag.png"   class="image-detail" alt="Picture of Nametag Project"></img>
-              </a>
-              </div>
-              <div class="written-description">
-                This is a nametag project that I have created to show my personal details along with some interesting and cute designs!
-              </div>
-            </div>
-            <div id="interview-detail" class="detail-item hide">
-              <div>\<a href="../Interview/index.html">
-                <img src="./pictures/interview.png"   class="image-detail" alt="Picture of Interview Project"></img>
-              </a> 
-              </div>
-              <div class="written-description">
-                This is a interview project that I have created, it shows some questions and answers about my partner Whitley!
-              </div>
-            </div>
-            <div id="expressivewebsite-detail" class="detail-item hide">
-              <div>
-                <a href="../expressive-text/index.html">
-                <img src="./pictures/expressive-text.png"   class="image-detail" alt="Picture of Expressive Website Project"></img>
-              </a>
-              </div>
-              <div class="written-description">
-                This is an expressive website that I have created for the song 'Fly Me To The Moon'. I have included many interesting animations and effects on the website, please check it out!
-              </div>
-            </div>
-            <div id="abstractwebsite-detail" class="detail-item hide">
-              <div>
-                <a href="../abstract-website/index.html">
-                <img src="./pictures/abstract-website.png"   class="image-detail" alt="Picture of Abstract Website Project"></img>
-              </a>
-              </div>
-              <div class="written-description">
-                This is an abstract website that I have create that shows the layout of main page of 'The Met Museum's website. Please check it out!
-              </div>
-            </div>
-          </div>
-        </div>
-    
-    
-        <div class="sidebar">
-          <button onclick="myFunction()" class="dropbtn">MENU</button>
-            <div id="myDropdown" class="dropdown-content">
-            <a href="javascript:void(0);" onclick="switchItem('maze')">MAZE</a>
-            <a href="javascript:void(0);" onclick="switchItem('nametag')">NAMETAG</a>
-            <a href="javascript:void(0);" onclick="switchItem('interview')">INTERVIEW</a>
-            <a href="javascript:void(0);" onclick="switchItem('expressivewebsite')">EXPRESSIVE WEBSITE</a>
-            <a href="javascript:void(0);" onclick="switchItem('abstractwebsite')">ABSTRACT WEBSITE</a>
-            
-            <br></br>
-    
-            <audio id="player" controls autoplay>
-              <source src="mp3/Yiruma, (이루마) - River Flows in You.mp3" type="audio/mpeg">
-          </audio>
-    
-            <a href="./index2.html">ABOUT ME</a>
-          
-          </div>
-        </div>
-      </div>
+
+    <div class="project-description">
+       <h2>Designed to be interactive with users, Bubbles! focused on providing information about Netflix shows or movies, while interacting with users in a playful way!</h2>
+       <h2>For this webpage, I have been working with Emily's airtable collection of her top 100 Netflix watches, I wanted to specifically focus on emphasizing the emotions that she experience while watching these shows and movies.</h2>
+       <p>Documentation of versions of websites ↘</p>
+    </div>
+
     <div class="process-container">
-        
+        <div class="process-slideshow">
+            <img class="mySlides" src="./assets/figma1.png">
+            <img class="mySlides" src="./assets/figma2.png">
+            <img class="mySlides" src="./assets/process1.png">
+            <img class="mySlides" src="./assets/process2.png">
+            <img class="mySlides" src="./assets/process3.png">        
+            <img class="mySlides" src="./assets/process4.png">        
+            <img class="mySlides" src="./assets/process5.png">                
+            <img class="mySlides" src="./assets/process6.png">   
+        </div>
     </div>
+
+    <div class="button-container">
+        <button><a href="https://elainefei331.github.io/elainefeistudio/project-three/webpage/index.html" div id='link'>Give it a try!</a>
+        </button>
+    </div>
+
+    <div class="process-description">
+        <h1>What is the purpose of creating bubbles? Why bubbles?</h1>
+        <h3>I focused on bubbles to show how emotions and bubbles are all 'at-the-moment' things, and I wanted to make the website as interactive as possible.</h3>
+        <br></br>
+        <br></br>
+        <h2>After coding, bubbles started to appear on screen from the 2 at the beginning, and 30+ in this version. </h2>
+        <img src="./assets/process1.png">
+        <h2>The information bubbles interacted with the floating ones...</h2>
+        <img src="./assets/process2.png">
+        <h2>Information bubble no longer interacted with the floating ones, but 100 bubbles show on the page at the same time...</h2>
+        <img src="./assets/process3.png">
+        <img src="./assets/process4.png">
+        <br></br>
+        <br></br>
+        <h3>... ...</h3>
+        <br></br>
+        <br></br>
+        <h2>Finally, everything started working as desired!   Yay!</h2>
+    </div>
+
+    <div class="project-carousel">
+        <div class="project-slideshow">
+            <img class="projectSlides" src="./assets/laptop-one.jpg">
+            <img class="projectSlides" src="./assets/laptop-code.jpg">        
+            <img class="projectSlides" src="./assets/browser-one.jpg">
+        </div>
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+
 
 </body>
 

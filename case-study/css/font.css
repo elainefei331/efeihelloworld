@@ -1,11 +1,11 @@
 @font-face{
-    font-family: 'Shrikhand-Regular';
-    src:url('../font/Shrikhand-Regular.woff2') format('woff2');
+    font-family: 'Quicksand-Light';
+    src:url('../assets/Quicksand-Light.woff') format('woff');
     font-weight: normal;
 }
 
 @font-face{
-    font-family: 'IndieFlower';
-    src:url('../font/IndieFlower.woff2') format('woff2');
+    font-family: 'Quicksand-Regular';
+    src:url('../assets/Quicksand-Regular.woff') format('woff');
     font-weight: normal;
 }
